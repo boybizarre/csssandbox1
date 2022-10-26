@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links & Buttons</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .link-a {
+            color: #333;
+            text-decoration:double;
+        }
+        
+        .link-a:hover {
+            /* font-style: italic; */
+            color: blue;
+            /* text-decoration: underline; */
+        }
+
+        .link-a:visited {
+            color: purple;
+        }
+
+        .link-a:active {
+            color: black;
+        }
+        
+        .btn {
+            background: #4c6ca0;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: grab;
+        }
+
+        .btn:hover {
+            background: #446190;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://google.com" class="btn link-a" >My Link</a>
+    <br>
+    <br>
+    <button class="btn">My Button</button>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vh & Vw Units</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background: #333 url('./img/skyler-ewing-fPbLnMMd8BU-unsplash.jpg') no-repeat center center/cover;
+      color: #fff;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      padding-top: 15rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      margin: 1rem 0;
+    }
+
+    .btn {
+      background-color: #f4f4f4;
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      text-decoration: none;
+      color: #333;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+      background-color: orange;
+      color: #f4f4f4;
+      border-radius: 10px;
+
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    @media(max-height:450px) {
+      header {
+        padding-top: 5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome To Our Website</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus accusantium aut ex praesentium quam omnis?</p>
+    <a href="#" class="btn">Find Out More</a>
+  </header>
+
+  <section>
+    <h3>ABOUT OUR COMPANY</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita libero perferendis quibusdam ea explicabo fugit porro officiis! Ducimus vel deleniti a illum architecto, inventore explicabo delectus odit voluptas iste, aspernatur aperiam aut omnis harum sed nemo ad quos tempora voluptatem at cupiditate! Repellat aut dicta sunt debitis, vitae qui tempore?</p>
+  </section>
+</body>
+
+</html>
